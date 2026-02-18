@@ -1,0 +1,119 @@
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  position: fixed;
+  height: 100%;
+  overflow: scroll;
+}
+
+a {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-size: 28px;
+  border-bottom: 0.3px solid rgb(210, 210, 210);
+
+  color: rgb(0, 0, 0);
+  background-color: rgb(171, 171, 171, 0.092);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(112, 112, 112);
+  color: white;
+}
+
+
+.side-bar a:nth-child(1):hover {
+  background-color: dimgray;
+  /* all */
+}
+
+.side-bar a:nth-child(2):hover {
+  background-color: brown;
+  /* bug */
+}
+
+.side-bar a:nth-child(3):hover {
+  background-color: slategray;
+  /* dark */
+}
+
+.side-bar a:nth-child(4):hover {
+  background-color: mediumaquamarine;
+  /* dragon */
+}
+
+.side-bar a:nth-child(5):hover {
+  background-color: hsl(51deg 73% 50%);
+  /* electric */
+}
+
+.side-bar a:nth-child(6):hover {
+  background-color: hotpink;
+  /* fairy */
+}
+
+.side-bar a:nth-child(7):hover {
+  background-color: crimson;
+  /* fighting */
+}
+
+.side-bar a:nth-child(8):hover {
+  background-color: goldenrod;
+  /* fire */
+}
+
+.side-bar a:nth-child(9):hover {
+  background-color: steelblue;
+  /* flying */
+}
+
+.side-bar a:nth-child(10):hover {
+  background-color: black;
+  /* ghost */
+}
+
+.side-bar a:nth-child(11):hover {
+  background-color: mediumseagreen;
+  /* grass */
+}
+
+.side-bar a:nth-child(12):hover {
+  background-color: peru;
+  /* ground */
+}
+
+.side-bar a:nth-child(13):hover {
+  background-color: darkcyan;
+  /* ice */
+}
+
+.side-bar a:nth-child(14):hover {
+  background-color: gray;
+  /* normal */
+}
+
+.side-bar a:nth-child(15):hover {
+  background-color: mediumpurple;
+  /* poison */
+}
+
+.side-bar a:nth-child(16):hover {
+  background-color: orange;
+  /* psychic */
+}
+
+.side-bar a:nth-child(17):hover {
+  background-color: dimgray;
+  /* rock */
+}
+
+.side-bar a:nth-child(18):hover {
+  background-color: steelblue;
+  /* steel */
+}
